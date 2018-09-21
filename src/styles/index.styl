@@ -1,0 +1,124 @@
+.ui.menu.navbar {
+  border-radius: 0;
+
+  .item {
+    justify-content: center;
+  }
+}
+
+.ui.photo {
+  margin-bottom: 60px;
+
+  .photo__header {
+    display: flex;
+    align-items: center;
+  }
+
+  .photo__date {
+    flex: 1;
+    color: grey;
+    text-align: right;
+    font-weight: normal;
+  }
+
+  .photo__likes {
+    margin-top: .5em;
+    font-weight: bold;
+    user-select: none;
+
+    .icon {
+    cursor: pointer;
+    }
+  }
+
+  .photo__description {
+    margin: 1em 0;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  @media only screen and (max-width: 425px) {
+    padding-right: 0;
+    padding-left: 0;
+    border-right: 0;
+    border-left: 0;
+
+    .photo__header, .photo__footer {
+      padding-right: 1em;
+      padding-left: 1em;
+    }
+
+  }
+}
+
+.feed-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+
+  .feed-page__feed {
+    max-width: 500px;
+    width: 100%;
+  }
+}
+
+.ui.comments .comment .comment__avatar {
+  img {
+    border-radius: 50%;
+  }
+}
+
+.ui.form {
+  margin-top: 1em;
+
+  .fields {
+    display: flex;
+    margin-bottom: 0;
+
+    .comment__input {
+      flex: 1;
+    }
+
+    .description__input {
+      flex: 1;
+    }
+
+    .comment__button {
+      button {
+        width: 60px;
+      }
+    }
+  }
+}
+
+#app, .login-page {
+  height: 100%;
+}
+
+input[type="file"] {
+  opacity: 0;
+  z-index: -1;
+  visibility: hidden;
+}
+
+.add-photo__button {
+  position: fixed;
+  right: 1em;
+  bottom: 1em;
+}
+
+.add-photo__preview {
+  .image {
+    max-width: 500px;
+    max-height:  500px;
+  }
+}
+
+.add-photo__buttons {
+  justify-content: flex-end;
+}
+
+.no-photos {
+  text-align: center;
+}

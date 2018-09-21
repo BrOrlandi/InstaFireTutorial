@@ -1,0 +1,35 @@
+{
+  "name": "instafire",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Instagram Like Firebase App",
+  "author": "Bruno Orlandi <brorlandi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./public && parcel build ./src/index.html --no-cache -d public",
+    "start": "rm -rf ./public && parcel ./src/index.html --no-cache -p 3000 -d public",
+    "deploy": "yarn build && firebase deploy"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "parcel-bundler": "^1.9.7",
+    "stylint": "^1.5.9"
+  },
+  "dependencies": {
+    "react": ">=15 <17",
+    "react-dom": "^16.5.1",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.5",
+    "stylus": "^0.54.5"
+  }
+}
