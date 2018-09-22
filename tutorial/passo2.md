@@ -47,11 +47,7 @@ Você verá que foram criado arquivos de regras de acesso ao banco de dados (`da
 
 # 2.2 - Importando Firebase no JavaScript
 
-Agora você precisa instalar a dependência do Firebase para usar as funcionalidades dele no seu projeto.
-
-```
-$ yarn add firebase
-```
+Agora você precisa import a dependência do Firebase para usar as funcionalidades dele no seu projeto. Ele já está instalado no projeto como você pode ver no `package.json`.
 
 No arquivo `src/js/firebase.js` você deve importar o firebase e suas funcionalidades que irá usar, seguindo o código abaixo:
 

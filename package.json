@@ -26,8 +26,11 @@
     "stylint": "^1.5.9"
   },
   "dependencies": {
+    "firebase": "^5.5.1",
+    "re-base": "^4.0.0",
     "react": ">=15 <17",
     "react-dom": "^16.5.1",
+    "react-firebaseui": "^3.0.7",
     "semantic-ui-css": "^2.3.3",
     "semantic-ui-react": "^0.82.5",
     "stylus": "^0.54.5"
