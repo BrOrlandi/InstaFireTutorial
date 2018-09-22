@@ -5,10 +5,13 @@ Verfique se você possui **Node.js** instalado para executar e desenvolver este 
 ## 1.1 - Instalar depêndencias
 Instale as dependências do projeto usando `yarn` ou `npm`. Neste projeto estarei usando o `yarn`, mas você pode optar pelo `npm` se desejar.
 
+Todos os comandos citados neste tutorial deverão ser executados no diretório do projeto.
+
 ```
 $ yarn
 $ yarn start
 ```
+
 Ao executar os dois comandos acima, as dependências serão instaladas e ir rodar a aplicação. Esta aplicação usa o [Parcel Bundler](https://parceljs.org) que é uma ferramenta similar ao [Webpack](https://webpack.js.org/).
 
 Agora acesse a aplicação que deve estar rodando na porta 3000:
