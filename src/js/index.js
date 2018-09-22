@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import 'semantic-ui-css/semantic.min.css';
 import '../styles/index.styl';
 
-// import firebase from 'firebase/app';
+// import firebase from './firebase';
 
 import App from './App';
 
@@ -19,8 +19,7 @@ const handleAuthStateChanged = (user) => {
   renderApp(user);
 };
 
+// remover esta criação de usuário fake
 const user = {};
-
 handleAuthStateChanged(user);
 
-// firebase.auth().onAuthStateChanged(handleAuthStateChanged);
