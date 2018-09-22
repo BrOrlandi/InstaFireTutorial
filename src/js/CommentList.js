@@ -68,7 +68,7 @@ class CommentList extends Component {
         {comments.map(comment => (<CommentItem {...comment} />))}
         <Form onSubmit={this.onSubmitComment}>
           <Form.Group>
-            <Form.Input placeholder="Comment..." name="comment" className="comment__input" />
+            <Form.Input placeholder="Comment..." name="comment" className="comment__input" required />
             <Form.Button icon="comment outline" className="comment__button" />
           </Form.Group>
         </Form>
