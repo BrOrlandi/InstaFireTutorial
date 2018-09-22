@@ -2,4 +2,4 @@
 public/
 node_modules/
 *.log
-
+*.cache
