@@ -1,15 +1,18 @@
 import React from 'react';
+import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import {
   Grid, Header, Segment, Icon,
 } from 'semantic-ui-react';
 
-// const uiConfig = {
-//   signInFlow: 'popup',
-//   signInOptions: [
-//     firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-//     firebase.auth.EmailAuthProvider.PROVIDER_ID,
-//   ],
-// };
+// import firebase from './firebase';
+
+const uiConfig = {
+  signInFlow: 'popup',
+  signInOptions: [
+    // firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+    // firebase.auth.EmailAuthProvider.PROVIDER_ID,
+  ],
+};
 
 const LoginPage = () => (
   <div className="login-page">
@@ -20,7 +23,7 @@ const LoginPage = () => (
           InstaFire
         </Header>
         <Segment secondary>
-          Formulário de Login
+          {/* <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} /> */}
         </Segment>
       </Grid.Column>
     </Grid>
