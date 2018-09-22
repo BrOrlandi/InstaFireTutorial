@@ -16,7 +16,6 @@ Se tudo der certo, no final o script irá retornar a URL da sua aplicação onli
 
 Acesse com o seu celular e tente postar umas fotos por lá!
 
-Ainda temos mais que aprender com este projeto e a partir daqui você pode escolher qual a próxima funcionalidade que quer implementar no projeto.
+Ainda temos mais que aprender com este projeto e os próximos passos são mais simples, curtir fotos e postar comentários. Apesar de não parecer, veja como é bem mais fácil estas funcionalidades nos próximos passos.
 
 [Passo 7 - Curtindo fotos ](./passo7.md)
-[Passo 8 - Comentando nas fotos ](./passo8.md)
