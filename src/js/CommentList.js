@@ -39,15 +39,8 @@ class CommentList extends Component {
       return;
     }
 
-    const user = {
-      displayName: 'Nome do usuário',
-    };
-
     const newComment = {
-      userId: user.uid,
-      userPhoto: user.photoURL,
-      userName: user.displayName,
-      message: commentText,
+      // construir objeto do novo comentário
     };
 
     const { comments } = this.state;
