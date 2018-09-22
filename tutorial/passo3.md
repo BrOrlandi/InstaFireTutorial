@@ -30,7 +30,7 @@ Edite o arquivo `src/js/NavBar.js` para obter o nome e a foto do usuário logado
 
 O botão de **Sair** ainda não está funcionando. No mesmo arquivo da barra de navegação é fácil fazer o logout do usuário. Basta usar a função `signOut()` do módulo `auth`.
 
-Agora Login e Logout devem estar funcionando! Siga para o próximo passo!
+Agora Login e Logout devem estar funcionando com o nome e foto do usuário exibidos na aplicação! Siga para o próximo passo!
 
 [Passo 4 - Postando fotos](./passo4.md)
 

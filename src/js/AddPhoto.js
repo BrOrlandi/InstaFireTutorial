@@ -3,6 +3,8 @@ import {
   Button, Modal, Image, Form, Dimmer, Loader,
 } from 'semantic-ui-react';
 
+// import firebase, { rebase } from './firebase';
+
 class AddPhoto extends Component {
   state = {
     modalOpen: false,
@@ -46,14 +48,16 @@ class AddPhoto extends Component {
       submiting: true,
     });
 
-    const user = {}; // usuario
+    const user = {}; // identificar o usuario aqui
 
     const fileName = `${user.uid}_${Date.now()}`;
 
     const { photoFile } = this.state;
     const pathToPhoto = `photos/${fileName}`;
 
-    // Fazer upload da foto no Storage
+    // Fazer upload da foto no Storage aqui
+
+    // Depois pegar a URL da foto e armazenar com outros dados no Realtime Database
 
     this.setState({
       submiting: false,
