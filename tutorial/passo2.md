@@ -14,7 +14,7 @@ const config = {
 firebase.initializeApp(config);
 ```
 
-# 2.1 - Configurando o projeto Firebase
+## 2.1 - Configurando o projeto Firebase
 
 Verifique se possui o CLI do Firebase tentando rodar apenas `firebase` no seu terminal. Caso não possua pode instalar com:
 
@@ -45,7 +45,7 @@ Deixe as outras perguntas com as respostas padrão, apenas aperte Enter até fin
 
 Você verá que foram criado arquivos de regras de acesso ao banco de dados (`database.rules.json`), regras de acesso ao armazenamento de arquivos (`storage.rules`), configurações do projeto (`.firebaserc` e `firebase.json`).
 
-# 2.2 - Importando Firebase no JavaScript
+## 2.2 - Importando Firebase no JavaScript
 
 Agora você precisa import a dependência do Firebase para usar as funcionalidades dele no seu projeto. Ele já está instalado no projeto como você pode ver no `package.json`.
 
