@@ -7,6 +7,8 @@ Referência da documentação:
 
 Para este passo vamos trabalhar com dois módulos do Firebase, o **Realtime Database** e o **Storage**. O primeiro será para registrar todos os dados das fotos que serão exibidas no feed. Já o segundo é onde os arquivos das fotos serão enviados e armazenados.
 
+*Dica: na pasta `photosSample` tem várias fotos top que você pode usar para testar seu upload de fotos.*
+
 ## 4.1 - Ativando os módulos no Firebase
 
 Primeiro acesse o módulo **Storage** no painel do Firebase e clique no botão **Primeiros passos** para ativá-lo no projeto.
